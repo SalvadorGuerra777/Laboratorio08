@@ -28,16 +28,4 @@ class MainActivity : AppCompatActivity() {
 //        trans.commit()
 //    }
 
-    override fun onBackPressed() {
-        val trans = supportFragmentManager.beginTransaction()
-        binding.navHostFragment.id
-        if(movieViewModel.getScreenFragment() == 0){
-            super.onBackPressed()
-        }
-
-//        trans.replace(R.id.nav_host_fragment, BillBoardFragment())
-//        movieViewModel.SetBillboardFragment()
-//        trans.commit()}
-    }
-
 }

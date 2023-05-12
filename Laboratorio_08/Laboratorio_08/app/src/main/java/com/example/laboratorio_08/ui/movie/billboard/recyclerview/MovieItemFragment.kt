@@ -18,7 +18,7 @@ class MovieItemFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = FragmentMovieItemBinding.inflate(inflater, container, false)
+        binding = FragmentMovieItemBinding.inflate(inflater, container, false)
         return binding.root
     }
 
